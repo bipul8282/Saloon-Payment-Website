@@ -1,0 +1,93 @@
+.ServicesContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://static.wixstatic.com/media/c64d140883b44bd2ae54d3e17d80add1.jpg/v1/fill/w_640,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Hair%20Salon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:90vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ServicesContainer h1{
+    color: #000;
+    display: flex;
+    margin: 0 1.5rem;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 2rem 0 ;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 1.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .gridItem {
+    padding: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  .gridItem img{
+    border-radius: 15px;
+    width: 5rem;
+    height:5rem
+  
+  }
+  .gridItem img:hover{
+    width: 5.1rem;
+    height:5.1rem
+  }
+  .gridItem span{
+    font-size: 1.4rem;
+    margin: 0.5rem;
+  }
+  .gridIcon{
+    color: #2196F3;
+     font-size: 5rem;
+  }
+  
+
+@media screen and (max-width:1024px){}
+@media screen and (max-width:768px){
+  .ServicesContainer{
+    height:120vh;
+    padding: 0.8rem;
+  }
+  .ServicesContainer h1{
+   
+    background-color: none;
+  }
+  .gridItem{
+    width: 11rem;
+    padding: 1.6rem;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 0 0.1rem;
+  }
+}
+@media screen and (max-width:480px){
+  .gridContainer {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 0 0.1rem;
+  }
+  .gridItem img{
+    width: 3rem;
+    height:3rem
+  }
+  .gridItem{
+    padding: 1rem 0.01rem;
+  }
+  .ServicesContainer{
+    height:90vh;
+    padding: 0rem;
+  }
+}

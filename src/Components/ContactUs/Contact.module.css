@@ -1,0 +1,101 @@
+.ContactContainer{
+    max-width: 1300px;
+    margin: 8rem auto;
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-between ;    
+}
+.Contact{
+  text-align: center;
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  height: max-content;
+  background-color: rgba(45, 45, 45, 0.087);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem 1.5rem;
+  border-radius: 10px;
+  width: 30rem;
+}
+.Contact h1{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-block-start: 0.067em;
+  margin-block-end: 0.067em;
+}
+.input{
+    padding: 1rem;
+    width: 24rem;
+    margin: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 0.6rem;
+    width: 26rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.btn:hover{
+  transform: translatey(-5px);
+}
+
+.Map{
+  height: 60vh;
+  width: 35vw;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+
+  @media screen and (max-width:1024px){
+    .ContactContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:4rem;
+      margin-top: 5rem;
+    }
+    .Contact{
+      justify-content: center;
+      text-align: center;
+    }
+    .Contact p{
+      margin-block-start: 0.21em;
+      margin-block-end: 0.21em;
+    }
+    .Map{
+      height: 65vh;
+      width: max-content;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+  @media screen and (max-width:768px){}
+  @media screen and (max-width:480px){
+
+.input{
+  width: 16rem;
+}
+.btn{
+  width: 18rem;
+}
+   
+.Contact{
+      padding: 0.6rem ;
+      width: 20rem;
+    }
+    .Map{
+      height: 40vh;
+      width: 21rem;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  }

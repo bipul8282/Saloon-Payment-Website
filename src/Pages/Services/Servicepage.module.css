@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+.box1{
+   
+    height: 400x;
+    width: 400px ;
+}
+.box2{
+    height: 400x;
+    width: 400px ;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.text{
+    /* margin-left: 1rem; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.btn{
+    padding: 0.6rem;
+    width: 15rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
